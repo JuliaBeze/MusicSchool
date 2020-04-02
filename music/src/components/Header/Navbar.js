@@ -6,13 +6,15 @@ import {NavLink} from "react-router-dom";
 
 
 
-
 function Navbar() {
     return (
 
             <div className={s.navMenu}>
+
                 <nav className={s.navigation}>
+
                     <div className={s.link}>
+                        {/*<img src="https://pp.userapi.com/c844722/v844722724/172998/gSQMTarhHr0.jpg"/>*/}
                         <NavLink to = "/main"> Главная </NavLink>
                     </div>
                     <div  className={s.link}>

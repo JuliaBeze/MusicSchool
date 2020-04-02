@@ -1,6 +1,6 @@
 .navMenu{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 
 }
 
@@ -11,4 +11,13 @@
     color: white;
     position: relative;
     z-index: 1;
+
+}
+
+.navigation {
+
+}
+.navigation img {
+    width: 18px;
+    height: 20px;
 }

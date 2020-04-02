@@ -8,13 +8,13 @@ function Header  () {
 
         return (
 
-                <div className={s.menuMainImage}>
-                    <div className={s.menuMain}>
+                <div className={s.menuMain}>
+
                         <div className={s.container}>
                             <Navbar/>
 
                         </div>
-                    </div>
+
                 </div>
 
 
