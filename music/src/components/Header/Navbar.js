@@ -1,5 +1,11 @@
 import React from 'react';
 import s from "./Navbar.module.css";
+import {NavLink} from "react-router-dom";
+
+
+
+
+
 
 function Navbar() {
     return (
@@ -7,20 +13,20 @@ function Navbar() {
             <div className={s.navMenu}>
                 <nav className={s.navigation}>
                     <div className={s.link}>
-                        <a href = "/main">Главная </a>
+                        <NavLink to = "/main"> Главная </NavLink>
                     </div>
                     <div  className={s.link}>
-                        <a href="/programs">Программы</a>
+                        <NavLink to="/programs">Программы</NavLink>
                     </div>
 
                     <div className={s.link}>
-                        <a href="/record"> Запись </a>
+                        <NavLink to="/record"> Запись </NavLink>
                     </div>
                     <div className={s.link}>
-                        <a href="/teachers">Преподаватели </a>
+                        <NavLink to="/teachers">Преподаватели </NavLink>
                     </div>
                     <div className={s.link}>
-                        <a href="/aboutus">Онас </a>
+                        <NavLink to="/aboutus">Онас </NavLink>
                     </div>
 
                 </nav>
