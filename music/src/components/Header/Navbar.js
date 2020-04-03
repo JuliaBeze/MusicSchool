@@ -10,17 +10,13 @@ function Navbar() {
     return (
 
             <div className={s.navMenu}>
-
                 <nav className={s.navigation}>
-
                     <div className={s.link}>
-                        {/*<img src="https://pp.userapi.com/c844722/v844722724/172998/gSQMTarhHr0.jpg"/>*/}
                         <NavLink to = "/main"> Главная </NavLink>
                     </div>
                     <div  className={s.link}>
                         <NavLink to="/programs">Программы</NavLink>
                     </div>
-
                     <div className={s.link}>
                         <NavLink to="/record"> Запись </NavLink>
                     </div>
@@ -30,7 +26,6 @@ function Navbar() {
                     <div className={s.link}>
                         <NavLink to="/aboutus">Онас </NavLink>
                     </div>
-
                 </nav>
             </div>
 

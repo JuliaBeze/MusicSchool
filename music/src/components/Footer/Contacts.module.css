@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    font-family: "Rubik", "Arial", sans-serif;
+
+}
+
+.clockTitle {
+    padding-bottom: 10px;
+    font-size: 20px;
+    color:royalblue ;
+}
+.timeInfo {
+
+    margin: 20px 0 0 10px;
+    font-size: 14px;
+}
+
+.addressTitle {
+    padding-bottom: 10px;
+    font-size: 20px;
+    color:royalblue ;
+}
+.address {
+    margin: 20px 40px 0 0;
+    font-size: 14px;
+}
